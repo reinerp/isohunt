@@ -17,14 +17,13 @@ Maintainer:          reiner.pope@gmail.com
 Category:            Web
 Build-type:          Simple
 -- Extra-source-files:  
-Cabal-version:       >=1.4
+Cabal-version:       >=1.6
 homepage:            https://github.com/reinerp/isohunt
 bug-reports:         https://github.com/reinerp/isohunt/issues
+
 source-repository head
   type:                 git
-  location:             git://github.com/reinerp/CoreFoundation.git
-
-
+  location:             git://github.com/reinerp/isohunt.git
 
 Library
   Exposed-modules:
