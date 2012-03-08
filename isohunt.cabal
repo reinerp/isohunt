@@ -2,7 +2,7 @@
 -- see
 -- http://www.haskell.org/cabal/release/cabal-latest/doc/users-guide/authors.html#pkg-descr.
 Name:                isohunt
-Version:             0.1
+Version:             0.1.1
 Synopsis:            Bindings to the isoHunt torrent search API
 Description:         
   Bindings to the isoHunt torrent search API, as described in
@@ -41,7 +41,7 @@ Library
      data-default < 0.4,
      ghc-prim,
      vector >= 0.7.1 && < 0.10,
-     unordered-containers < 0.2,
+     unordered-containers < 0.3,
      bytestring < 0.10
 
   ghc-options:
