@@ -70,4 +70,4 @@ list obj key =
   case H.lookup key obj of
     Just (Object v) -> v .: "list"
     Just _ -> fail $ "key " ++ show key ++ " is not an object"
-    Nothing -> fail $ "key " ++ show key ++ " not found"
+    Nothing -> return V.empty
